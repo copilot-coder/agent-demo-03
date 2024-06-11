@@ -21,7 +21,7 @@ stream = True
 # 并去掉下面三行的注释
 # base_url = 'https://dashscope.aliyuncs.com/compatible-mode/v1'
 # model = "qwen-plus"
-# stream = False # 通义千Function Calling不支持流式输出
+# stream = False # 通义千问Function Calling不支持流式输出
 
 client = OpenAI(
     api_key=api_key,

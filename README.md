@@ -1,6 +1,8 @@
 ## 概述
 本代码库演示如何基于OpenAI Python SDK库实现智能体，为LLM添加数学计算、查询天气和联网查询的功能。
 
+公众号文章：https://mp.weixin.qq.com/s/_EOD-lfOfqBl7jN0_Qb22w
+
 ## 如何使用
 - 安装依赖
 ```
