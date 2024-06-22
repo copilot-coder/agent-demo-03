@@ -58,7 +58,7 @@ tools = [
                 "properties": {
                     "location": {
                         "type": "string",
-                        "description": "The city and state, e.g. San Francisco, CA"
+                        "description": "The city"
                     }
                 },
                 "required": [
