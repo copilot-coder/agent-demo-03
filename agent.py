@@ -139,7 +139,8 @@ def invoke_tool(tool_call: Union[ChatCompletionMessageToolCall, ChoiceDeltaToolC
 
 
 def merge_too_calls(tool_calls: List[ChoiceDeltaToolCall], delta_tool_calls: List[ChoiceDeltaToolCall]):
-    for index, delta_tool_call in enumerate(delta_tool_calls):
+    for delta_tool_call in delta_tool_calls:
+        index = delta_tool_call.index
         if len(tool_calls) <= index:
             if delta_tool_call.function.arguments is None:
                 delta_tool_call.function.arguments = ''
